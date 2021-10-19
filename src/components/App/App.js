@@ -7,6 +7,7 @@ import Home from "../../pages/home/home";
 import Login from "../../pages/login/login";
 import Dashboard from "../../pages/dashboard/dashboard";
 import "./App.css";
+import "../../main.css";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <Route path="/login" component={Login} exact></Route>
             <Route path="/profile" component={Dashboard} exact></Route>
             <Route path="*">
-              <Redirect to="/user/12" />
+              <Redirect to="/" />
             </Route>
           </Switch>
           <Footer />

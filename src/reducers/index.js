@@ -1,4 +1,4 @@
 import { combineReducers } from "redux";
-import getDatasReducer from "./getDatasReducer";
+import user from "./user";
 
-export default combineReducers({ getDatasReducer });
+export default combineReducers({ user });
