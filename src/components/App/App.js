@@ -6,7 +6,6 @@ import Footer from "../Footer/Footer";
 import Home from "../../pages/home/home";
 import Login from "../../pages/login/login";
 import Dashboard from "../../pages/dashboard/dashboard";
-import "./App.css";
 import "../../main.css";
 
 function App() {
